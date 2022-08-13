@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+:root{
+    --cor0: #106616;
+    --cor1: #6CEA74;
+    --cor2: #25E632;
+    --cor3: #2F6633;
+    --cor4: #1DB327;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e7e6b1;
+}
+header{
+    background-image: linear-gradient(to bottom,#33aa3b,#0c5211);
+    padding: 20px;
+    color: white;
+}
+
+header > h1{
+    text-align: center;
+    padding: 15px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+}
+header > p{
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+}
+nav{
+    background-color: #0c5211;
+    padding: 15px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition-duration: .3s;
+}
+nav > a:hover{
+    text-decoration: underline;
+    background-color: #6CEA74;
+}
+main{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    padding: 15px;
+    height: 100%;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main > h1{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #2a8130;
+}
+
+main > h2 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #0c0c0c;
+    background-image: linear-gradient(to right,#63bd69, transparent);
+    text-indent: 8px;
+}
+main > p {
+    padding: 20px;
+}
+.video{
+    background-color: #0c5211;
+    margin-bottom: 30px;
+    margin: 0px -15px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+
+}
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 6px;
+    color: #27ac2e;
+    background-color: #25e63254;
+}
+.links::after{
+    content: '\00A0\1F517';
+}
+.links:hover{
+    text-decoration: underline;
+
+}
+aside{
+    background-color: #41d497;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.514); 
+}
+aside > h3 {
+    background-color: #106616;
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > ul{
+    list-style-type: '\2714\00A0\00A0'; /*Aqui ele troca o a bolinha que vem a frente do li 2714 é o código da emojipedia e o 00A0 é o espaçamento entre o check e o conteúdo*/
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer{
+    background-color: #0c5211;
+    color: white;
+    text-align: center;
+}
+.p{
+    margin: 15px 0px;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+main strong{
+    color: #27ac2e;
+    font-weight: bold;
+    padding: 2px 6px;
+}
